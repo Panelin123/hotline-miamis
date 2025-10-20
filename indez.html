@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Top-Down Shooter estilo Hotline Miami</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="menu" class="screen">
+  <h1>HOTLINE MINI</h1>
+  <button onclick="startGame()">Começar</button>
+</div>
+
+<div id="gameOver" class="screen hidden">
+  <h1>Você morreu!</h1>
+  <button id="restartBtn">Reiniciar</button>
+</div>
+
+<canvas id="gameCanvas" width="800" height="600"></canvas>
+
+<script src="game.js"></script>
+</body>
+</html>
